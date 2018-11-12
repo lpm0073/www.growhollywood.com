@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="growhollywood grow hollywood grow-hollywood">
+        <meta name="author" content="FOUCAULT Alexis">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Grow Hollywood</title>
+
+        <link rel="icon" href="/images/favicon.ico"/>
+
+        <link href="/styles/css/jquery.growl.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/scrolling-nav.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/fonts/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
+                    <link href="/styles/style-home.css" rel="stylesheet" type="text/css"/>
+                <link href="/styles/media.css" rel="stylesheet" type="text/css"/>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="/js/jquery.js" type="text/javascript"></script>
+        <script src="/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.growl.js" type="text/javascript"></script>
+        <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/js/validator.min.js" type="text/javascript"></script>
+        <script src="/js/scrolling-nav.js" type="text/javascript"></script>
+        <script src="/js/jquery.imageScroll.min.js" type="text/javascript"></script>
+        <script src="/js/grow-hollywood.scroll.js" type="text/javascript"></script>
+        <script src="/js/grow-hollywood.js" type="text/javascript"></script>
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="page-scroll" href="#page-top">
+                        <img src="/images/_logo_grow-hollywood.png" alt="Grow Hollywood" />
+                    </a>
+                </div>
+
+                <div class="page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse navbar-ex1-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden">
+                            <a href="#page-top" class="page-scroll"></a>
+                        </li>
+                        <li data-navbar-custom="0">
+                            <a href="#front" class="page-scroll">Home</a>
+                        </li>
+                                                    <li data-navbar-custom="1">
+                                <a href="#about" class="page-scroll">About us</a>
+                            </li>
+                            <li data-navbar-custom="1">
+                                <a href="#team" class="page-scroll">The Team</a>
+                            </li>
+                                                <li data-navbar-custom="1">
+                            <a href="#projects" class="page-scroll">Projects</a>
+                        </li>
+                        <li data-navbar-custom="1">
+                            <a href="#submission" class="page-scroll">Project submission</a>
+                        </li>
+                                                    <li data-navbar-custom="1">
+                                <a href="#contact" class="page-scroll">Contact us</a>
+                            </li>
+                                                <li class="dropdown">
+                            <a href="#" class="page-scroll dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            <li class="disabled" disabled><a href="#">English</a></li>    <li><a href="/zh/">中文</a></li><ul class="dropdown-menu">                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        <section class="section front" id="front">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3" id="h1-logo"></div>
+                    <div class="col-md-10 col-md-offset-1">
+                        <p>Providing assistance with financing, development, production and distribution/release for Film & <span class="text-nowrap">TV Producers</span>, Writers and Directors</p>
+                    </div>
+                    <a class="page-scroll" href="#about">
+                        <h2>About us</h2>
+                        <i class="fa fa-angle-double-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="img-holder" id="about" data-image="/images/about.jpg"></div>
+        <section class="section">
+            <div class="section-title"><h3>ABOUT US</h3></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 justify">
+                        Grow Hollywood is a 21st century film/TV/music/media production company providing assistance in financing, development, production and distribution. Grow Hollywood leverages a team of Hollywood veterans coupled with new media innovators producing content appealing to a wide audience. Grow Hollywood always aims to create high quality content with high financial returns from mainstream sales including ancillary revenue streams through licensing and merchandising opportunities.
+                    </div>
+                    <div class="col-md-12 center">
+                        Grow Hollywood, sourcing the best in film, television, music, virtual reality, video games, apps<br/>
+                        and interactive content, including children's programming and edu-tainment.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img-holder" id="team" data-image="/images/team.jpg"></div>
+        <section class="section">
+            <div class="section-title"><h3>THE TEAM</h3></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h4>
+                            J. KELLY CREAN FREIS<br/>
+                            Executive Producer
+                        </h4>
+                        <p>J. Kelly Crean Freis is an award-winning film/tv producer specializing in working with producers at an executive level to bring projects to fruition. During her career she has worked on over 50 films for studios such as Disney, MGM and Miramax and has worked on over 22 independent films. She has worked on over 200 episodes of television for networks such as The Food Network, MTV and WE that have aired in over 100 countries around the world. Ms. Crean has also produced and/or executive produced several music soundtracks and records over the years with international sales via Sony BMG. As an active voting member of the National Academy of Television Arts and Sciences, Ms. Crean stays in the know on all things regarding each year's Academy Awards. Her other affiliations include AFI, AFTRA, IFP, EO, the Film Society of Lincoln Center and Women in Film. A former member of the U.S. Ski Team, Ms. Crean earned a degree in English Literature from Columbia University, and studied film production at Columbia University's School of the Arts. Some of Ms. Crean's independent films include "Black Irish" (writer/director Brad Gann "Invincible", "Soul Surfer"), winner of 7 International film festivals and 14 awards, "Cover", premiering with Fox Studios and directed by Bill Duke, and the Sundance Film Festival Hit, "Prey for Rock & Roll", starring Gina Gershon. Ms. Crean is an expert at film and television finance and is also an experienced entrepreneur and angel investor in a number of emerging American companies. Her investment strategies have always involved companies that strive for rapid growth and job creation.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h4 class="right">
+                            BLAINE MCMANUS<br/>
+                            Producer
+                        </h4>
+                        <p>Blaine McManus is a film producer living and working between Los Angeles and Louisiana for the past 25 years. His experience includes writing and packaging sitcoms and reality television, production designing and art directing numerous films, commercials, television specials, and music videos, and producing feature films and television shows. In 1997 McManus founded Trace Entertainment, a film and television production design company servicing clients such as Pacific Bell, Nissan and Gatorade, as well as music videos for The Backstreet Boys, Snoop Dogg, Master P. In 2000, McManus expanded Trace Entertainment to a service production company with a focus on feature films and television. To date, McManus has produced six feature films, garnering several nominations and awards on festival circuits. McManus produced "Laugh at L.A.," a stand up comedy and sketch comedy television show starring Todd Bridges, Christopher "Kid" Reid (Kid n Play), and Mad TV's Debra Wilson-Skelton. McManus co-produced the Lionsgate action film, "Blood Out", starring Val Kilmer and Fifty Cent. In 2011, McManus released "Fathers of the Sport" starring Dr. J, a documentary chronicling the history of street basketball's unsung legends and heroes which was nominated for best documentary feature at the Pan African Film Festival. Also from McManus is "Shut Up & Shoot!" a dark comedy action feature starring Joe Cortese, Gary Busey, and Tom Sizemore, and "Bad Guys," a Reservoir Dogs-type action thriller starring Latin sensation Kate De Castillo and MMA world champion Quinton "Rampage" Jackson, which swept top award honors at the Beverly Hills Film Festival including Best Feature Film. 2011 also marked the release of "The Zombie Farm," a horror / comedy filmed in two languages and starring some of the Spanish film market's hottest stars. McManus is co-owner of Los Angeles-based Powerful Entertainment, currently in development on the action film "Marble City" and prepping for production of the heist action feature "Thorns" filming in Louisiana.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img-holder" id="projects" data-image="/images/projects.jpg"></div>
+        <section class="section link">
+            <div class="section-title"><h3>PROJECTS</h3></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 center">
+                        Interested in our work?<br/>
+                        You can browse our projects <a href="/en/projects">here</a> or click the button below!<br/>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4 button center">
+                        <a class="btn btn-info" href="/en/projects">LEARN MORE<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img-holder" id="submission" data-image="/images/submission.jpg"></div>
+        <section class="section link">
+            <div class="section-title" id="submissionSectionTitle"><h3>PROJECT SUBMISSION</h3></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 center">
+                        You want to work with us too?<br/>
+                        You can submit your project <a href="/en/submission">here</a> or click the button below<br/>
+                        and we will be please to review it!
+                    </div>
+                    <div class="col-md-4 col-md-offset-4 button center">
+                        <a class="btn btn-info" href="/en/submission">SUBMIT<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img-holder" id="contact" data-image="/images/contact.jpg"></div>
+        <section class="section">
+            <div class="section-title" id="contactSectionTitle"><h3>CONTACT US</h3></div>
+            <div class="container align-top">
+                <div class="row">
+                    <div class="col-md-12">
+                        Got a question? We'll give you straight answers!
+                    </div>
+                    <!--<div class="info">We only accept message in english. Thank you for your understanding.</div>-->
+                    <div class="col-md-10 col-md-offset-1 form">
+                        <form role="form" class="mail" data-toggle="validator" data-type="contact">
+                            <div class="row">
+                                <div class="form-group col-md-6">l
+                                    <label for="firstName">First Name</label>
+                                    <p class="form-text text-muted">(required)</p>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" data-error="This field is required" placeholder="Your first name ..." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName">Last Name</label>
+                                    <p class="form-text text-muted">(required)</p>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" data-error="This field is required" placeholder="Your last name ..." required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group has-feedback col-md-6">
+                                    <label for="mail">Email Address</label>
+                                    <p class="form-text text-muted">(required)</p>
+                                    <input type="email" class="form-control" id="mail" name="mail" data-error="Invalid email address" placeholder="Your email address ..." required>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Telephone</label>
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Please, enter your phone number ...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" data-error="The subject can't be empty" placeholder="Subject" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="message">Message</label>
+                                    <p class="form-text text-muted">(required)</p>
+                                    <textarea class="form-control" rows="10" id="message" name="message" data-error="The message can't be empty" placeholder="Please, enter your message here ..."  required></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <button type="submit" class="btn btn-danger full-width">SEND MESSAGE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="container">
+                <div class="row footer-header">
+                    <a href="#front" class="col-xs-5 col-sm-3 col-xs-offset-7 col-sm-offset-8 page-scroll footer-logo"></a>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h5 class="align-top">Grow hollywood</h5>
+                        <a href="/en/projects">Projetcs</a>
+                        <a href="/en/submission">Project submission</a>
+                        <h5>Learn more</h5>
+                        <a href="/en/termsAndConditions">Terms and Conditions</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5 class="align-top">Follow us</h5>
+                        <a href="https://www.instagram.com/growhollywood/?hl=en" target="_inst"><i class="fa fa-instagram"></i>@growhollywood</a>
+                        <a href="https://twitter.com/Grow_Hollywood" target="_tw"><i class="fa fa-twitter"></i>@Grow_Hollywood</a>
+                        <a href="https://www.facebook.com/Grow-Hollywood-1751285918460409/" target="_fb"><i class="fa fa-facebook"></i>Facebook</a>
+                    </div>
+                    <div class="col-xs-4" id="gh-contact">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                136 S. El Camino Dr.<br>
+                                Beverly Hills, CA 90212<br>
+                                USA
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="col-xs-11">+1 (323) 508-1605</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                <a href="mailto:info@growhollywood.com" id="footer-mail">info@growhollywood.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <div class="col-xs-12">
+                        <i class="fa fa-copyright"></i>&nbsp;Grow Hollywood 2016&nbsp;&nbsp;|&nbsp;&nbsp;All rights reserved&nbsp;&nbsp;|&nbsp;&nbsp;Industry Alliances&nbsp;:&nbsp;<a class="classic" href="http://www.eb5s.com/">EB5 Solutions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="classic" href="http://internationalgrowthcapital.com/">IGC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0798'}) 
+    // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
+    </script>
+    <script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script>
+</html>

@@ -1,0 +1,56 @@
+/***************************/
+/********** ROBOTO *********/
+/***************************/
+@font-face {
+    font-family: 'robotothin';
+    src: url('Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('Roboto-Medium.ttf');
+}
+
+/***************************/
+/******** MONTSERRAT *******/
+/***************************/
+@font-face {
+    font-family: 'montserratultralight';
+    src: url('Montserrat-UltraLight.otf');
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('Montserrat-SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('Montserrat-Bold.otf');
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('Montserrat-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('Montserrat-ExtraBold.otf');
+}
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('Montserrat-ExtraBold.otf');
+}

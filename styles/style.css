@@ -1,0 +1,499 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "montserratultralight", verdana, "Microsoft Yahei", "????", STXihei, "????", sans-serif;
+}
+
+.inline {
+    display: inline;
+}
+
+/***************************/
+/********** TITLES *********/
+/***************************/
+h5 {
+    margin: 1.5rem 0 1rem;
+    font-size: 0.9rem;
+}
+
+h5.align-top {
+    margin-top: 0;
+}
+
+/***************************/
+/********** NAVBAR *********/
+/***************************/
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #DDD;
+}
+
+nav.navbar {
+    border-radius: 0;
+}
+
+nav.navbar div.container {
+    width: 100%;
+}
+
+nav.navbar.navbar-custom {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+
+nav.navbar div.container {
+    padding: 0;
+}
+
+nav.navbar div.container div.navbar-brand {
+    margin-left: 5%;
+    padding: 0;
+}
+
+nav.navbar div.container div.navbar-collapse {
+    float: right;
+    height: 50px !important;
+    line-height: 50px;
+}
+
+nav.navbar div.container div.navbar-brand a img {
+    height: 100%;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav {
+    margin: 0 5rem;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li {
+    margin-right: .5rem;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li a {
+    padding: .5rem .25rem;
+    font-size: 1rem;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.dropdown {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li:before,
+nav.navbar div.container div.navbar-collapse ul.nav li:after {
+    line-height: 1.5rem;
+    content: '|';
+    font-size: 1.5rem;
+    vertical-align: middle;
+    display: inline-block;
+    visibility: hidden;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.active:before,
+nav.navbar div.container div.navbar-collapse ul.nav li.active:after {
+    visibility: visible;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li a {
+    font-size: 1rem;
+    color: #FFFFFF;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.active a {
+    background-color: transparent;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.disabled a {
+    width: 90%;
+    padding-bottom: .25rem;
+    color: #5BC0DE;
+    border-bottom: 1px solid #E7E7E7;
+    cursor: default;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li a:hover {
+    color: #5BC0DE;
+    background-color: transparent;
+}
+
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.dropdown.open a:focus,
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.dropdown.open a:visited {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.active:before,
+nav.navbar div.container div.navbar-collapse ul.nav li.active:after,
+nav.navbar div.container div.navbar-collapse ul.nav li.active a {
+    color: #FFFFFF;
+}
+
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.active:before,
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.active:after,
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.active a,
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li a:hover {
+    color: #5BC0DE;
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.dropdown .caret {
+    margin-left: .5rem;
+}
+
+nav.navbar.navbar-custom div.container div.navbar-collapse ul.nav li.dropdown ul {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav.navbar div.container div.navbar-collapse ul.nav li.dropdown ul.dropdown-menu li a {
+    width: 90%;
+}
+
+/***************************/
+/********* SECTIONS ********/
+/***************************/
+.left {
+    float: left;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 65%;
+    padding-bottom: 7%;
+}
+
+section#submission {
+    min-height: 100%;
+}
+
+section div.container {
+    width: 80%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+section div.container.align-top {
+    padding-top: 0;
+}
+
+section div.container div.row div.align-top {
+    margin-top: 0;
+}
+
+section div.container div.row div.center {
+    text-align: center;
+}
+
+section div.container div.row div.select-label {
+    font-size: 1rem;
+}
+
+section div.container div.row div.select {
+    height: 2rem;
+    font-size: .75rem;
+}
+
+section div.container div.row div.info {
+    margin-bottom: 5%;
+    font-size: .75rem;
+    color: #777;
+}
+
+section div.container div.row div h1 {
+    margin-bottom: 3%;
+    font-family: "montserratregular", verdana, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+    font-size: 1.5rem;
+}
+
+section div.container div.row div.select select {
+    width: 100%;
+    padding-left: .5rem;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+section div.container div.row div.select span.cross {
+    position: absolute;
+    right: 2.25rem;
+    bottom: 25%;
+    font-family: "montserratsemibold", verdana, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+    font-size: .75rem;
+    cursor: pointer;
+    display: none;
+}
+
+section div.container .full-width {
+    width: 100%;
+    text-align: center;
+}
+
+/*** TERMS AND CONDITIONS ***/
+section#termsAndConditions div.container div.row p {
+    margin-left: 5%;
+}
+
+/*** FORM ***/
+section div.container div.row div.form {
+    margin-top: 0;
+}
+
+section div.container div.row div.form:not(.submission) div.row {
+    margin-top: 1%;
+}
+
+section div.container div.row div.form div.form-group,
+section div.container div.row div.form div.help-block {
+    margin-top: 0;
+}
+
+section div.container div.row div.form div.form-inline {
+    padding: 0;
+}
+
+section div.container div.row div.form div.title {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    font-family: "montserratregular", verdana, "Microsoft Yahei", "????", STXihei, "????", sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #709DCE;
+}
+
+section div.container div.row div.form div.upload-box {
+    margin-bottom: 0;
+}
+
+section div.container div.row div.form div.terms-box {
+    padding-top: .5rem;
+}
+
+section div.container div.row div.form label {
+    font-size: 1rem;
+}
+
+section div.container div.row div.form p {
+    margin-top: 0;
+    font-size: 1rem;
+    display: inline;
+}
+
+section div.container div.row div.form input {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .75rem;
+    background-color: rgba(231, 231, 231, 0.3);
+}
+
+section div.container div.row div.form input.terms {
+    display: none;
+}
+
+section div.container div.row div.form select {
+    width: 100%;
+    padding: .15rem .6rem;
+    font-size: .75rem;
+}
+
+section div.container div.row div.form select.multiple {
+    height: 10%;
+}
+
+section div.container div.row div.form textarea {
+    line-height: 1rem;
+    font-size: .75rem;
+    background-color: rgba(231, 231, 231, 0.3);
+}
+
+section div.container div.row div.form ul {
+    line-height: 1.1rem;
+    font-size: .75rem;
+}
+
+section div.container div.row div.form button {
+    margin-top: 1%;
+    font-size: 1.25rem;
+}
+
+section div.container div.row div.form div.title label {
+    margin-bottom: 0;
+    font-family: "montserratultralight", verdana, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: #777;
+}
+
+section div.container div.row div.form div.upload-box p {
+    margin: 0;
+    display: block;
+}
+
+section div.container div.row div.form div.upload-box input {
+    width: 0;
+    height: 0;
+}
+
+section div.container div.row div.form div.upload-box div.file {
+    position: inherit;
+    top: .25rem;
+    left: .5rem;
+    font-size: 1rem;
+}
+
+section div.container div.row div.form div.terms-box label {
+    width: 1.5rem;
+    margin: 0;
+    vertical-align: middle;
+}
+
+section div.container div.row div.form div.terms-box span {
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+section div.container div.row div.form div.terms-box a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section div.container div.row div.form div.has-feedback label~.form-control-feedback {
+    top: 2rem;
+    right: 1.25rem;
+    font-size: 1rem;
+}
+
+section div.container div.row div.form div.upload-box label i {
+    margin-right: .5rem;
+}
+
+section div.container div.row div.form select option {
+    line-height: 1.5rem;
+}
+
+section div.container div.row div.form div.terms-box label input:checked + i:before {
+    content: '\f046';
+    color: #5BC0DE;
+}
+
+/*** COMING SOON ***/
+section.coming-soon {
+    height: 50%;
+}
+
+section.coming-soon div.container div.row div p {
+    margin-top: 5%;
+    font-size: 5rem;
+    color: #5BC0DE;
+    text-align: center;
+}
+
+/***************************/
+/********** MODAL **********/
+/***************************/
+.modal-header {
+    font-family: "montserratregular", verdana, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.modal-body {
+    text-align: justify;
+    line-height: 1.25rem;
+    font-size: 1rem;
+}
+
+div.modal button {
+    font-size: 1.25rem;
+}
+
+/***************************/
+/********** FOOTER *********/
+/***************************/
+div.footer {
+    color: #FFFFFF;
+    background: #333333;
+}
+
+div.footer div.container {
+    height: 100%;
+}
+
+div.footer div.container div.footer-header {
+    height: 7rem;
+}
+
+div.footer div.container a.footer-logo {
+    height: 100%;
+    background-image: url('/images/_logo_grow-hollywood.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+}
+
+div.footer div.container div.row.footer-bottom {
+    padding: 1rem 0;
+    font-size: .8rem;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.0745098);
+}
+
+div.footer div.container div.row.footer-bottom a {
+    text-decoration: none;
+}
+
+div.footer div.container div.row div.col-xs-4#gh-contact {
+    font-size: .9rem;
+}
+
+div.footer div.container div.row div.col-xs-4 div {
+    margin-bottom: 1.25rem;
+}
+
+div.footer div.container div.row div.col-xs-4 div.margin-small {
+    margin-bottom: .25rem;
+}
+
+div.footer div.container div.row div.col-xs-4 div.row div {
+    padding: 0;
+}
+
+div.footer div.container div.row div.col-xs-4 a {
+    line-height: 1.25rem;
+    font-size: 0.8rem;
+    color: #979797;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+div.footer div.container div.row div.col-xs-4 a#footer-mail {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+div.footer div.container div.row div.col-xs-4 a:hover,
+div.footer div.container div.row div.col-xs-12 a:hover{
+    color: #5BC0DE;
+}
+
+div.footer div.container div.row div.col-xs-4 a i {
+    width: .75rem;
+    margin-right: .5rem;
+    color: #FFFFFF;
+}
+
+div.footer div.container div.row div a img {
+    margin: -6.25rem 0 0 -1.5rem;
+}

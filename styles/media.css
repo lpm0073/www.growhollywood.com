@@ -1,0 +1,200 @@
+/***************************/
+/********** WIDTH **********/
+/***************************/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    html, body {
+        font-size: 13px;
+    }
+
+    section:not(.front) div.section-title {
+        margin-bottom: -10%;
+    }
+}
+
+@media only screen and (max-width : 374px) {
+    section:not(.front) div.section-title {
+        padding-right: 2%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 426px) {
+    div.footer div.container {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    html, body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 666px) {
+    section:not(.front) div.section-title#submissionSectionTitle {
+        margin-bottom: -20%;
+    }
+}
+
+@media only screen and (min-width : 667px) {
+    section:not(.front) div.section-title {
+        margin-bottom: -5%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 765px) {
+    nav.navbar div.container div.navbar-collapse {
+        float: right;
+        width: 100%;
+        margin: 0;
+        height: inherit !important;
+        line-height: inherit;
+    }
+
+    nav.navbar {
+        background-color: rgba(0, 75, 90, 0.8);
+    }
+
+    section:not(.front) div.section-title {
+        margin-top: 0;
+        padding-top: 0;
+        height: auto;
+        transform: translateY(-100%);
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    section div.container div.row div.select {
+        margin-top: .25rem;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    html, body {
+        font-size: 11px;
+    }
+
+    section:not(.front) div.section-title#contactSectionTitle {
+        margin-bottom: 0;
+    }
+
+    section div.container div.row div.select {
+        margin: -1rem 0 0 -5%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    div.img-holder,
+    div.imageHolder {
+        height: 30% !important;
+    }
+
+    .fa-phone {
+        font-size: .8rem;
+    }
+
+    .fa-envelope {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width : 913px) {
+    nav.navbar div.container div.navbar-brand {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    nav.navbar div.container div.navbar-collapse ul.nav {
+        margin: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    div.img-holder,
+    div.imageHolder {
+        height: 30% !important;
+    }
+
+    section div.container div.row div.select {
+        margin-top: -.75rem;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    html, body {
+        font-size: 15px;
+    }
+
+    section div.container div.row div.select {
+        margin-top: -.5rem;
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    section:not(.front) div.section-title {
+        margin-bottom: 0;
+    }
+
+    div.img-holder,
+    div.imageHolder {
+        height: 50% !important;
+    }
+}
+
+@media only screen and (max-width : 1400px) {
+    section {
+        min-height: 30%;
+    }
+}
+
+@media only screen and (min-width : 1440px) {
+    section div.container div.row div.select {
+        margin-left: -13%;
+    }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1500px) {
+    html, body {
+        font-size: 20px;
+    }
+
+    section div.container div.row div.select select {
+        height: 100%;
+    }
+    
+    section div.container div.row div.select {
+        margin-top: -.25rem;
+    }
+}
+
+/***************************/
+/********** HEIGHT *********/
+/***************************/
+@media only screen and (max-height : 430px) and (orientation:landscape) {
+    #h1-logo {
+        margin-top: 17%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    section.front div.container div.row p {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    section.front div.container div.row a i {
+        margin-top: -.75rem;
+        font-size: 3.5rem;
+    }
+}
