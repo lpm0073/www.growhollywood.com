@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="growhollywood grow hollywood grow-hollywood">
+        <meta name="author" content="FOUCAULT Alexis">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Grow Hollywood</title>
+
+        <link rel="icon" href="/images/favicon.ico"/>
+
+        <link href="/styles/css/jquery.growl.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/scrolling-nav.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/fonts/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
+                <link href="/styles/media.css" rel="stylesheet" type="text/css"/>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
+        <![endif]-->
+        <script src="/js/jquery.js" type="text/javascript"></script>
+        <script src="/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.growl.js" type="text/javascript"></script>
+        <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/js/validator.min.js" type="text/javascript"></script>
+        <script src="/js/scrolling-nav.js" type="text/javascript"></script>
+        <script src="/js/jquery.imageScroll.min.js" type="text/javascript"></script>
+        <script src="/js/grow-hollywood.scroll.js" type="text/javascript"></script>
+        <script src="/js/grow-hollywood.js" type="text/javascript"></script>
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-collapse navbar-custom" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="page-scroll" href="/en/">
+                        <img src="/images/_logo_grow-hollywood.png" alt="Grow Hollywood" />
+                    </a>
+                </div>
+
+                <div class="page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse navbar-ex1-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden">
+                            <a href="#page-top" class="page-scroll"></a>
+                        </li>
+                        <li data-navbar-custom="0">
+                            <a href="/en/" class="page-scroll">Home</a>
+                        </li>
+                                                <li data-navbar-custom="1">
+                            <a href="/en/projects" class="page-scroll">Projects</a>
+                        </li>
+                        <li data-navbar-custom="1">
+                            <a href="/en/submission" class="page-scroll">Project submission</a>
+                        </li>
+                                                <li class="dropdown">
+                            <a href="#" class="page-scroll dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            <li class="disabled" disabled><a href="#">English</a></li>    <li><a href="/zh/termsAndConditions">中文</a></li><ul class="dropdown-menu">                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    <section class="section" id="termsAndConditions">
+        <div class="container align-top">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Terms and Conditions</h1>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Writer, Developer or Creator agrees that in submitting material:<br/><br/>
+                    1. Developer or creator warrants that submitted application description ("Material") are original and that Developer or creator has the right to grant all rights in and to such material. In the event the Material, in whole or in part, is not original to Developer or creator, Developer or creator nonetheless represents that he/she has the exclusive right to grant all rights in and to the Material.<br/><br/>
+                    2. Developer or creator agrees to indemnify Grow Hollywood, LLC and its successors, assigns and affiliated and related entities (each an "Indemnified Party") from and against any and all claims, expenses, damages, actions, causes of action, losses or liability (including reasonable attorneys' fees and costs) that may be asserted against, imposed on or incurred by any Indemnified Party at any time in connection with the Material.<br/><br/>
+                    3. If Grow Hollywood, LLC determines in its sole discretion that the Material doesn't meet its criteria, it is not obligated to produce any motion picture or portion thereof based on such Material.<br/><br/>
+                    4. Developer or creator understands that Grow Hollywood, LLC and its affiliates receive numerous submissions of ideas formats, suggestions and other materials from other Developer or creator and third parties and that many such submissions might be similar or identical to those submitted by the Developer or creator. Developer or creator agrees that he/she will not be entitled to any compensation or other such consideration as a result of any use by Grow Hollywood, LLC, its successors, assigns and affiliated and related entities of any such similar or identical submissions.<br/><br/>
+                    5. Developer or creator agrees that Grow Hollywood, LLC is under no obligation to return submitted materials to Developer or creator and Developer or creator agrees to release Grow Hollywood, LLC from any liability for loss or other damage to the copy(ies) submitted.<br/><br/>
+                    6. Developer or creator accepts the foregoing conditions in return for Grow Hollywood, LLC agreement to consider and review the Material submitted herewith, with the express understanding that Developer or creator agrees to limit it's claim of rights in the features of the Material as specifically synopsized in writing or as attached hereto. Developer or creator agrees that Grow Hollywood, LLC has no obligation to Developer or creator with respect to the Material except as set forth in this agreement.<br/><br/>
+                    I hereby state that I have read and understand this Agreement, that no oral representations of any kind have been made to me, that there are no prior or contemporaneous oral agreements in effect between Grow Hollywood, LLC and myself pertaining to the Material, and that this agreement states our entire understanding.
+                </p>
+            </div>
+        </div>
+    </section>
+        <div class="footer">
+            <div class="container">
+                <div class="row footer-header">
+                    <a href="/en/" class="col-xs-5 col-sm-3 col-xs-offset-7 col-sm-offset-8 page-scroll footer-logo"></a>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h5 class="align-top">Grow hollywood</h5>
+                        <a href="/en/projects">Projetcs</a>
+                        <a href="/en/submission">Project submission</a>
+                        <h5>Learn more</h5>
+                        <a href="/en/termsAndConditions">Terms and Conditions</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <h5 class="align-top">Follow us</h5>
+                        <a href="https://www.instagram.com/growhollywood/?hl=en" target="_inst"><i class="fa fa-instagram"></i>@growhollywood</a>
+                        <a href="https://twitter.com/Grow_Hollywood" target="_tw"><i class="fa fa-twitter"></i>@Grow_Hollywood</a>
+                        <a href="https://www.facebook.com/Grow-Hollywood-1751285918460409/" target="_fb"><i class="fa fa-facebook"></i>Facebook</a>
+                    </div>
+                    <div class="col-xs-4" id="gh-contact">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                136 S. El Camino Dr.<br>
+                                Beverly Hills, CA 90212<br>
+                                USA
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="col-xs-11">+1 (323) 508-1605</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                <a href="mailto:info@growhollywood.com" id="footer-mail">info@growhollywood.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <div class="col-xs-12">
+                        <i class="fa fa-copyright"></i>&nbsp;Grow Hollywood 2016&nbsp;&nbsp;|&nbsp;&nbsp;All rights reserved&nbsp;&nbsp;|&nbsp;&nbsp;Industry Alliances&nbsp;:&nbsp;<a class="classic" href="http://www.eb5s.com/">EB5 Solutions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="classic" href="http://internationalgrowthcapital.com/">IGC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'a2plcpnl0798'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
